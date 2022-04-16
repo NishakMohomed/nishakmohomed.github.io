@@ -8,28 +8,28 @@ function scrollHeader(){
 window.addEventListener('scroll', scrollHeader);
 
 
-//Services modal
-const modalViews = document.querySelectorAll('.services-modal'),
-      modalBtn = document.querySelectorAll('.services-button'),
-      modalClose = document.querySelectorAll('.services-modal-close');
+// //Services modal
+// const modalViews = document.querySelectorAll('.services-modal'),
+//       modalBtn = document.querySelectorAll('.services-button'),
+//       modalClose = document.querySelectorAll('.services-modal-close');
 
-let modal = function(modalClick){
-    modalViews[modalClick].classList.add('active-modal');
-}
+// let modal = function(modalClick){
+//     modalViews[modalClick].classList.add('active-modal');
+// }
 
-modalBtn.forEach((mb, i) => {
-    mb.addEventListener('click', () =>{
-        modal(i)
-    });
-});
+// modalBtn.forEach((mb, i) => {
+//     mb.addEventListener('click', () =>{
+//         modal(i)
+//     });
+// });
 
-modalClose.forEach((mc) =>{
-    mc.addEventListener('click', () =>{
-        modalViews.forEach((mv) =>{
-            mv.classList.remove('active-modal')
-        });
-    });
-});
+// modalClose.forEach((mc) =>{
+//     mc.addEventListener('click', () =>{
+//         modalViews.forEach((mv) =>{
+//             mv.classList.remove('active-modal')
+//         });
+//     });
+// });
 
 
 //Mixitup filter portfolio
