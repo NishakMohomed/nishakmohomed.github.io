@@ -18,13 +18,13 @@
 
 /* Colors */
 
---first-hue: 54;
+--first-hue: 14;
 --sat: 100%;
---light: 62%;
+--light: 64%;
 --second-hue: 219;
 
 --first-color: hsl(var(--first-hue), var(--sat), var(--light));
---first-color-alt: hsl(var(--first-hue), var(--sat), 58%);  /* substract 4 from lightness */
+--first-color-alt: hsl(var(--first-hue), var(--sat), 60%);  /* substract 4 from lightness */
 --title-color: hsl(var(--second-hue), 15%, 95%);
 --text-color: hsl(var(--second-hue), 8%, 75%);
 --text-color-light: hsl(var(--second-hue), 4%, 55%);
