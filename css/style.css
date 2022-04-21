@@ -18,9 +18,9 @@
 
 /* Colors */
 
---first-hue: 4;
---sat: 90%;
---light: 62%;
+--first-hue: 14;
+--sat: 100%;
+--light: 64%;
 --second-hue: 219;
 
 --first-color: hsl(var(--first-hue), var(--sat), var(--light));
